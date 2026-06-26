@@ -120,7 +120,7 @@ def gather(call_id):
     twiml = f"""<?xml version="1.0" encoding="UTF-8"?>
     <Response>
         <Gather input="speech" action="{NGROK_URL}/gather/{call_id}" method="POST" timeout="10" speechTimeout="2">
-            <Say voice="Polly.Joanna-Neural">{patient_reply}</Say>
+            <Say voice="Polly.Stephen-Neural">{patient_reply}</Say>
         </Gather>
     </Response>"""
 
