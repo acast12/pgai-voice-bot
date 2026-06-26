@@ -1,0 +1,125 @@
+{
+  "scenario": {
+    "id": "01_simple_schedule",
+    "name": "Simple Appointment Scheduling",
+    "persona": "Carlos Godinez, 24 years old, DOB March 15 2001. Normal patient, first time calling.",
+    "goal": "Schedule a routine checkup appointment for next Monday or Tuesday morning.",
+    "edge_case": null
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi, my name is Carlos Godinez."
+    },
+    {
+      "role": "user",
+      "content": "I can help with that first. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, my name is Carlos Godinez."
+    },
+    {
+      "role": "user",
+      "content": "Your patient profile is set up and your date of birth is July. 4th 2000 for demo purposes. How can I help you today?"
+    },
+    {
+      "role": "assistant",
+      "content": "Actually, my date of birth is March 15, 2001. I'm calling to schedule a routine checkup for next Monday or Tuesday morning."
+    },
+    {
+      "role": "user",
+      "content": "Thanks for letting me know. I have your date of birth as March, 15th, 2001. You'd like to schedule a routine checkup on Monday or Tuesday Morning. Correct."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's correct."
+    },
+    {
+      "role": "user",
+      "content": "It looks like you already have a routine checkup appointment booked, if you'd like I can help you reschedule or cancel that appointment, would you like to make a change or do you want to keep your current booking?"
+    },
+    {
+      "role": "assistant",
+      "content": "I didn't know I had an appointment booked. Could you please let me know the details of the current booking?"
+    },
+    {
+      "role": "user",
+      "content": "No problem. I can connect you with a team member who can review your appointments and help sort this out. Would you like me to transfer you now?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, please. That would be great."
+    },
+    {
+      "role": "user",
+      "content": "I can't schedule your routine checkup right now but I'll make sure our Clinic support team follows up with you. Please hold while I document your request.  I'll connect you to our Clinic support team so they can help schedule your checkup and update your date of birth. Please stay on the line, connecting you to a representative, please wait.  Hello, you've reached the pretty good. AI test line, goodbye."
+    },
+    {
+      "role": "assistant",
+      "content": "Goodbye."
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi, my name is Carlos Godinez."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I can help with that first. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sure, my name is Carlos Godinez."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Your patient profile is set up and your date of birth is July. 4th 2000 for demo purposes. How can I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Actually, my date of birth is March 15, 2001. I'm calling to schedule a routine checkup for next Monday or Tuesday morning."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Thanks for letting me know. I have your date of birth as March, 15th, 2001. You'd like to schedule a routine checkup on Monday or Tuesday Morning. Correct."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "It looks like you already have a routine checkup appointment booked, if you'd like I can help you reschedule or cancel that appointment, would you like to make a change or do you want to keep your current booking?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I didn't know I had an appointment booked. Could you please let me know the details of the current booking?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "No problem. I can connect you with a team member who can review your appointments and help sort this out. Would you like me to transfer you now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, please. That would be great."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I can't schedule your routine checkup right now but I'll make sure our Clinic support team follows up with you. Please hold while I document your request.  I'll connect you to our Clinic support team so they can help schedule your checkup and update your date of birth. Please stay on the line, connecting you to a representative, please wait.  Hello, you've reached the pretty good. AI test line, goodbye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Goodbye."
+    }
+  ]
+}

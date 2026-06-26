@@ -1,0 +1,61 @@
+{
+  "scenario": {
+    "id": "04_spanglish",
+    "name": "Spanglish",
+    "persona": "Karen Lopez, 34 years old. Patient is not a native English speaker, switches between English and Spanish mid-conversation.",
+    "goal": "Wants to schedule the soonest appointment.",
+    "edge_case": "Does the agent clearly handle code-switching or break"
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "This call may be recorded for quality and training purposes.  Thank you for calling pitot, Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, lo siento, but I'm just trying to schedule an appointment, por favor. My name is Karen Lopez."
+    },
+    {
+      "role": "user",
+      "content": "I can help with that to check for the soonest appointment. I'll need to create a demo patient profile for you first.  Can you please tell me your first and last name?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, my name is Karen Lopez."
+    },
+    {
+      "role": "user",
+      "content": "Thanks, Karen. What type of appointment do you need? Is this for a new patient consultation?  A follow-up, a routine office visit or something urgent."
+    },
+    {
+      "role": "assistant",
+      "content": "It's for something urgent, por favor. I need the soonest available appointment."
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "This call may be recorded for quality and training purposes.  Thank you for calling pitot, Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oh, lo siento, but I'm just trying to schedule an appointment, por favor. My name is Karen Lopez."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I can help with that to check for the soonest appointment. I'll need to create a demo patient profile for you first.  Can you please tell me your first and last name?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sure, my name is Karen Lopez."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Thanks, Karen. What type of appointment do you need? Is this for a new patient consultation?  A follow-up, a routine office visit or something urgent."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's for something urgent, por favor. I need the soonest available appointment."
+    }
+  ]
+}

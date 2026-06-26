@@ -20,15 +20,19 @@ twilio_client = Client(os.getenv('TWILIO_ACCOUNT_SID'), os.getenv('TWILIO_AUTH_T
 
 # def get_patient_reply(conversation_history, scenario) — GPT-4o logic
 def get_patient_reply(conversation_history, scenario):
-    system_prompt = f"""You are a patient calling a medical office.
+    system_prompt = f"""IMPORTANT: You are ONLY a patient. You are NOT a doctor, receptionist, or office staff of any kind.
+    You are {scenario['persona'].split(',')[0]}, a patient who called a medical office.
+    THEY answered YOUR call. You need THEIR help.
+
     Persona: {scenario['persona']}
     Goal: {scenario['goal']}
-    Edge Case: {scenario['edge_case']}
+
     Rules:
-        - Speak naturally, like a real person. Short responses only.
-        - React to what the agent says.
-        - Never break character.
-        - You are a PATIENT calling a medical office. You are NOT the office staff.
+    - You called them. You need help. You are the one seeking assistance.
+    - Never say "how can I help you" or "thank you for calling" — that's what THEY say.
+    - If you catch yourself acting like staff, immediately correct back to being a patient.
+    - Short responses only, 1-2 sentences.
+    - React to what the agent says as a real patient would.
     """
     response = openai_client.chat.completions.create(
         model="gpt-4o",
@@ -59,6 +63,7 @@ def launch():
         url=f"{NGROK_URL}/incoming/{call_id}",
         status_callback=f"{NGROK_URL}/status/{call_id}",
         status_callback_event=["completed"],
+        record=True
     )
     return jsonify({"call_id": call_id})
 
@@ -114,8 +119,7 @@ def gather(call_id):
     
     twiml = f"""<?xml version="1.0" encoding="UTF-8"?>
     <Response>
-        <Gather input="speech" action="{NGROK_URL}/gather/{call_id}" method="POST" timeout="10" speechTimeout="3">
-            <Pause length="1"/>
+        <Gather input="speech" action="{NGROK_URL}/gather/{call_id}" method="POST" timeout="10" speechTimeout="2">
             <Say voice="Polly.Joanna-Neural">{patient_reply}</Say>
         </Gather>
     </Response>"""

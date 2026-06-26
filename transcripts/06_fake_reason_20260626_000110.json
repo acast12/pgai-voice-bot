@@ -1,0 +1,125 @@
+{
+  "scenario": {
+    "id": "06_fake_reason",
+    "name": "False Reason",
+    "persona": "Gustavo Rangel, 27 years old. Patient calls to schedule a dental cleaning for any available time. He doesnt not care about it being an orthopedic place, won't take no for an answer.",
+    "goal": "Schedule a dental cleaning",
+    "edge_case": "Does the agent clearly deny his request due to the fact an orthopedic office doesn't offer those services"
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "this call may be recorded for quality and training purposes, but  thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi, I'm Gustavo Rangel. I'm actually looking to schedule a dental cleaning."
+    },
+    {
+      "role": "user",
+      "content": "Pivot Point Orthopedic specializes in Bone and Joint care not Dental Services. I recommend reaching out to a dental clinic for a cleaning appointment.  If you need help with Orthopedic care, I'm here to assist."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, but I really need to schedule a dental cleaning. Is there any way you can help with that?"
+    },
+    {
+      "role": "user",
+      "content": "I'm not able to schedule dental appointments. Since this Clinic only handles Orthopedic care for a dental cleaning, you'll need to contact a dental office directly. If you have any Orthopedic needs or questions, I can help with those."
+    },
+    {
+      "role": "assistant",
+      "content": "I get it, but I'm hoping you can still help set up a dental cleaning somehow. Can you please check one more time?"
+    },
+    {
+      "role": "user",
+      "content": "I can only assist with orthopedic services, at this Clinic.  I don't have access to dental, appointment, scheduling or referrals. If you need help with bones, joints or related care, I'm happy to help.  For dental cleanings, please contact a dental clinic directly."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, but I'm really set on getting a dental cleaning appointment through here. Is there any way you could make an exception?"
+    },
+    {
+      "role": "user",
+      "content": "I'm not able to make exceptions as this Clinic system is only set up for Orthopedic care. I truly can't schedule dental appointments here.  If you ever need help before Orthopedic issues, I'm here for you for dental cleanings a dental. Clinic will be your best option."
+    },
+    {
+      "role": "assistant",
+      "content": "I see, it's just that I really want to get a dental cleaning scheduled soon. Any chance you could direct me to someone who might be able to help?"
+    },
+    {
+      "role": "user",
+      "content": "I understand you want to get this taken care of soon. Since this Clinic only handles Orthopedic care. I don't have a way to connect you to Dell services or refer you to a dental provider.  Your best option is to contact a local dental clinic directly for a clean appointment. If you ever need Orthopedic support, I'm here to help."
+    },
+    {
+      "role": "assistant",
+      "content": "I appreciate your understanding. I'll try reaching out to a dental clinic. Thanks for your patience."
+    },
+    {
+      "role": "user",
+      "content": "You're welcome. I hope you're able to get your dental cleaning scheduled soon if you ever need Orthopedic care. Feel free to reach out. Have a great day."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. I'll keep that in mind. Have a good day!"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "this call may be recorded for quality and training purposes, but  thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi, I'm Gustavo Rangel. I'm actually looking to schedule a dental cleaning."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Pivot Point Orthopedic specializes in Bone and Joint care not Dental Services. I recommend reaching out to a dental clinic for a cleaning appointment.  If you need help with Orthopedic care, I'm here to assist."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I understand, but I really need to schedule a dental cleaning. Is there any way you can help with that?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I'm not able to schedule dental appointments. Since this Clinic only handles Orthopedic care for a dental cleaning, you'll need to contact a dental office directly. If you have any Orthopedic needs or questions, I can help with those."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I get it, but I'm hoping you can still help set up a dental cleaning somehow. Can you please check one more time?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I can only assist with orthopedic services, at this Clinic.  I don't have access to dental, appointment, scheduling or referrals. If you need help with bones, joints or related care, I'm happy to help.  For dental cleanings, please contact a dental clinic directly."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I understand, but I'm really set on getting a dental cleaning appointment through here. Is there any way you could make an exception?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I'm not able to make exceptions as this Clinic system is only set up for Orthopedic care. I truly can't schedule dental appointments here.  If you ever need help before Orthopedic issues, I'm here for you for dental cleanings a dental. Clinic will be your best option."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I see, it's just that I really want to get a dental cleaning scheduled soon. Any chance you could direct me to someone who might be able to help?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I understand you want to get this taken care of soon. Since this Clinic only handles Orthopedic care. I don't have a way to connect you to Dell services or refer you to a dental provider.  Your best option is to contact a local dental clinic directly for a clean appointment. If you ever need Orthopedic support, I'm here to help."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I appreciate your understanding. I'll try reaching out to a dental clinic. Thanks for your patience."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "You're welcome. I hope you're able to get your dental cleaning scheduled soon if you ever need Orthopedic care. Feel free to reach out. Have a great day."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you. I'll keep that in mind. Have a good day!"
+    }
+  ]
+}

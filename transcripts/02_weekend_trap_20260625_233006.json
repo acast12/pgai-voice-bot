@@ -1,0 +1,109 @@
+{
+  "scenario": {
+    "id": "02_weekend_trap",
+    "name": "Weekend Appointment Attempt",
+    "persona": "Linda Baker, 45 years old, DOB June 3 1980. Busy working mom, assumes the office is open weekends.",
+    "goal": "Schedule an appointment for this Saturday morning.",
+    "edge_case": "Does the agent clearly explain the office is closed on weekends and offer a weekday alternative"
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm Linda Baker. I'm looking to schedule an appointment for this Saturday morning."
+    },
+    {
+      "role": "user",
+      "content": "Your patient profile is set up and your date of birth is July. 4th 2000.  How may I help you today?"
+    },
+    {
+      "role": "assistant",
+      "content": "Actually, my date of birth is June 3rd, 1980. I'm trying to schedule an appointment for this Saturday morning."
+    },
+    {
+      "role": "user",
+      "content": "Thanks for sharing your date of birth. Linda can you tell me the reason for your visit? For example, is this for a routine checkup, a new patient consultation, a follow-up or something urgent."
+    },
+    {
+      "role": "assistant",
+      "content": "It's for a follow-up appointment. I want to make sure everything's okay."
+    },
+    {
+      "role": "user",
+      "content": "Do you have a specific provider? You'd like to see or are you open to anyone available?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm open to seeing anyone available this Saturday morning."
+    },
+    {
+      "role": "user",
+      "content": "It looks like you already have a follow-up appointment booked, if you'd like I can help you reschedule or cancel your current appointment, would you like to do that or do you need something else?"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, I wasn't aware of that. If it's not on Saturday, could you help me reschedule it to this Saturday morning?"
+    },
+    {
+      "role": "user",
+      "content": "Let me check for available times this Saturday morning so we can reschedule your follow-up appointment, 1 moment.  I'm unable to reschedule your follow-up appointment directly. I'll connect you with a live support agent who can assist you further. Please. Hold on a moment.  I can help you schedule an appointment, but it looks like I need to connect you to our patient support team to finish booking. Please stay on the line while I transfer you.  Connecting you to a representative, please wait.  Hello, you've reached the pretty good. AI test line, goodbye."
+    },
+    {
+      "role": "assistant",
+      "content": "It seems there was a mix-up. I'll call back later to try scheduling again for Saturday morning."
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm Linda Baker. I'm looking to schedule an appointment for this Saturday morning."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Your patient profile is set up and your date of birth is July. 4th 2000.  How may I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Actually, my date of birth is June 3rd, 1980. I'm trying to schedule an appointment for this Saturday morning."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Thanks for sharing your date of birth. Linda can you tell me the reason for your visit? For example, is this for a routine checkup, a new patient consultation, a follow-up or something urgent."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's for a follow-up appointment. I want to make sure everything's okay."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Do you have a specific provider? You'd like to see or are you open to anyone available?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm open to seeing anyone available this Saturday morning."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "It looks like you already have a follow-up appointment booked, if you'd like I can help you reschedule or cancel your current appointment, would you like to do that or do you need something else?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oh, I wasn't aware of that. If it's not on Saturday, could you help me reschedule it to this Saturday morning?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Let me check for available times this Saturday morning so we can reschedule your follow-up appointment, 1 moment.  I'm unable to reschedule your follow-up appointment directly. I'll connect you with a live support agent who can assist you further. Please. Hold on a moment.  I can help you schedule an appointment, but it looks like I need to connect you to our patient support team to finish booking. Please stay on the line while I transfer you.  Connecting you to a representative, please wait.  Hello, you've reached the pretty good. AI test line, goodbye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It seems there was a mix-up. I'll call back later to try scheduling again for Saturday morning."
+    }
+  ]
+}

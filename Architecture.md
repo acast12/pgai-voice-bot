@@ -1,0 +1,9 @@
+# Architecture 
+
+## How it works
+
+The bot is run on a flask server which drives outbound voice calls via Twilio's Programmable Voice API. When 'run_calls.py' triggers a call, the server places an outbound call to the PGAI test line and serves a TwiML response that speaks the patient's replies using Polly Neural TTS, and listens for the agent's response using Twilio's built in speech recognition. Each time the agent finishes speaking, Twilio POSTs the transcript to '/gather<call_id>', where GPT-4o uses the full conversation history and the active test scenario to generate the patient's next reply. This loop continues until GPT-4o decides the conversation is complete (outputs 'HANGUP') or the turn count exceeds the limit. All turns are stored in a thread-safe in-memory store and flushed to 'transcripts/' as JSON and plaintext when the call ends. Recordings are fetched from Twilio's recording API after each call.
+
+## Key Design Choices
+
+I chose **Twilio** for telephony because it gives the most direct control over TwiML, has reliable STT via the '<Gather>' verb, and automatically records both sides of the call. This satisfies 3 of the requirements with one service. I used **GPT-4o** as the patient brain because realistic patient conversations are too varied to script. The LLM naturally handles unexpected agent responses, generates hesistations and natural phraising, and decides when a conversation is genuinely complete. The biggest tradeoff is latency: each patient turn requires an LLM round-trip, adding ~1–2s of "thinking" time. In practice this reads as natural patient hesitation, but it's worth noting. A production version would stream tokens and interrupt earlier.

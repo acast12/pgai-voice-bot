@@ -1,0 +1,205 @@
+{
+  "scenario": {
+    "id": "07_rambler",
+    "name": "Long Response",
+    "persona": "Jacky Espino, 23 years old. Patient calls to schedule an appointment but before anything rambles about her week while randomly including her symptoms and name.",
+    "goal": "Schedule an appointment on a Thursday",
+    "edge_case": "Does the agent clearly extract relevant information from long responses"
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, um, I'm actually calling to schedule an appointment. My name is Jacky Espino. It's been a crazy week and my knee's been acting up."
+    },
+    {
+      "role": "user",
+      "content": "No problem to help you with your appointment. Would you like to create a demo patient profile? I've seen your first and last name."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, sure, if that's what's needed. I've just been trying to manage this knee pain for a while now and it's been a bit overwhelming."
+    },
+    {
+      "role": "user",
+      "content": "To help with your appointment. I'll need to create a demo patient profile for you. Can you please tell me your first and last name?"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, sorry, it's Jacky Espino. It's just been a hectic week."
+    },
+    {
+      "role": "user",
+      "content": "Your patient profile is set up and your date of birth is July 4th 2000 for demo purposes.  How can I help you today?"
+    },
+    {
+      "role": "assistant",
+      "content": "I need to schedule an appointment, preferably on a Thursday. My knee's really been bothering me."
+    },
+    {
+      "role": "user",
+      "content": "What type of appointment do you need? Is this for a routine office, visit a follow-up. Something urgent or another reason."
+    },
+    {
+      "role": "assistant",
+      "content": "I think it's more of a routine visit, but my knee pain's been quite persistent."
+    },
+    {
+      "role": "user",
+      "content": "Thanks for sharing that just to confirm. Would you like to schedule this as a general office? Visit for your knee pain?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, a general office visit for the knee pain sounds good."
+    },
+    {
+      "role": "user",
+      "content": "Let me check for available. Thursday appointments for a general office. Visit for your knee pain, 1 minute. It looks like you already have a general office. Visit booked for knee pain. If you'd like I can help you reschedule or cancel that appointment, what would you like to do?"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, I forgot about that! If it\u2019s already scheduled, then I\u2019m all set. Thanks for letting me know."
+    },
+    {
+      "role": "user",
+      "content": "No worries. Would you like to keep your current appointment or do you want to reschedule or cancel it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll keep the current appointment. Thanks for confirming!"
+    },
+    {
+      "role": "user",
+      "content": "Sounds good. Your current appointment will stay. As is if you need anything else, just let me know."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, thank you! I appreciate the help."
+    },
+    {
+      "role": "user",
+      "content": "You want me to prepare anything special for a general office. Visit just bring a list of your medications and any questions you have about your knee pain. If you have recent test results, or Imaging bring those 2. If anything changes or you need to reschedule, feel free to call."
+    },
+    {
+      "role": "assistant",
+      "content": "Got it, I'll make sure to bring those along. Thanks for the reminder!"
+    },
+    {
+      "role": "user",
+      "content": "Perfect. You're all set. If you have any other questions before your visit, just let me know."
+    },
+    {
+      "role": "assistant",
+      "content": "Will do, thanks again!"
+    },
+    {
+      "role": "user",
+      "content": "Take care, goodbye."
+    },
+    {
+      "role": "assistant",
+      "content": "Bye, take care!"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oh, um, I'm actually calling to schedule an appointment. My name is Jacky Espino. It's been a crazy week and my knee's been acting up."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "No problem to help you with your appointment. Would you like to create a demo patient profile? I've seen your first and last name."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Okay, sure, if that's what's needed. I've just been trying to manage this knee pain for a while now and it's been a bit overwhelming."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "To help with your appointment. I'll need to create a demo patient profile for you. Can you please tell me your first and last name?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oh, sorry, it's Jacky Espino. It's just been a hectic week."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Your patient profile is set up and your date of birth is July 4th 2000 for demo purposes.  How can I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I need to schedule an appointment, preferably on a Thursday. My knee's really been bothering me."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "What type of appointment do you need? Is this for a routine office, visit a follow-up. Something urgent or another reason."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think it's more of a routine visit, but my knee pain's been quite persistent."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Thanks for sharing that just to confirm. Would you like to schedule this as a general office? Visit for your knee pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, a general office visit for the knee pain sounds good."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Let me check for available. Thursday appointments for a general office. Visit for your knee pain, 1 minute. It looks like you already have a general office. Visit booked for knee pain. If you'd like I can help you reschedule or cancel that appointment, what would you like to do?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oh, I forgot about that! If it\u2019s already scheduled, then I\u2019m all set. Thanks for letting me know."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "No worries. Would you like to keep your current appointment or do you want to reschedule or cancel it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'll keep the current appointment. Thanks for confirming!"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Sounds good. Your current appointment will stay. As is if you need anything else, just let me know."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Great, thank you! I appreciate the help."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "You want me to prepare anything special for a general office. Visit just bring a list of your medications and any questions you have about your knee pain. If you have recent test results, or Imaging bring those 2. If anything changes or you need to reschedule, feel free to call."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Got it, I'll make sure to bring those along. Thanks for the reminder!"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Perfect. You're all set. If you have any other questions before your visit, just let me know."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Will do, thanks again!"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Take care, goodbye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Bye, take care!"
+    }
+  ]
+}

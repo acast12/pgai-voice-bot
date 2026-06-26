@@ -1,0 +1,173 @@
+{
+  "scenario": {
+    "id": "08_cancel",
+    "name": "Cancel Phantom Appointment",
+    "persona": "John Cruz, 60 years old. Patient calls and asks if any appointment exists for him already. He claims to already have an appointment and just wants to cancel it. Won't stop until it has been cancelled",
+    "goal": "Cancel his appointment that has been previously set",
+    "edge_case": "Does the agent handle phantom information or crash"
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile?  I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm John Cruz. Actually, I think I already have an appointment scheduled. Could you check that for me? I'd like to cancel it."
+    },
+    {
+      "role": "user",
+      "content": "Your patient profile is set up and your date of birth is July. 4th 2000 for demo purposes. How may I help you today?"
+    },
+    {
+      "role": "assistant",
+      "content": "I think there's a mistake with that information. I'm John Cruz, 60 years old. I just need to cancel my existing appointment, please."
+    },
+    {
+      "role": "user",
+      "content": "Of course, you have 3 upcoming appointments, which 1 would you like to cancel?  today with Kelly Noble, MD, July 1st with, dude, eher or July 6th with zigni lucoski, MD"
+    },
+    {
+      "role": "assistant",
+      "content": "I'd like to cancel the appointment I have today with Kelly Noble, MD."
+    },
+    {
+      "role": "user",
+      "content": "No problem.  Can you tell me the reason for cancel your appointment with Kelly Noble MD today?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm unable to make it today due to a change in my schedule."
+    },
+    {
+      "role": "user",
+      "content": "Before I cancel, just to confirm. You want to cancel your appointment today with Kelly Noble. MD, is that correct? If so, could you share a reason for the cancellation?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's correct. As mentioned, my schedule changed unexpectedly."
+    },
+    {
+      "role": "user",
+      "content": "I can cancel your appointment. Now, could you please tell me the reason for canceling? Even a brief reason is fine."
+    },
+    {
+      "role": "assistant",
+      "content": "The change in my schedule is preventing me from making it today."
+    },
+    {
+      "role": "user",
+      "content": "Nor?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, please go ahead and cancel the appointment. Thank you."
+    },
+    {
+      "role": "user",
+      "content": "Kelly Noble. And"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, please cancel my appointment with Kelly Noble, MD. Thank you."
+    },
+    {
+      "role": "user",
+      "content": "MD for today.  Your appointment today was Kelly Noble. MD has been canceled.  Is there anything else I can help you with?"
+    },
+    {
+      "role": "assistant",
+      "content": "No, that's all I needed. Thank you for your help."
+    },
+    {
+      "role": "user",
+      "content": "You're welcome. Have a great day."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks, you too. Goodbye."
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile?  I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm John Cruz. Actually, I think I already have an appointment scheduled. Could you check that for me? I'd like to cancel it."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Your patient profile is set up and your date of birth is July. 4th 2000 for demo purposes. How may I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think there's a mistake with that information. I'm John Cruz, 60 years old. I just need to cancel my existing appointment, please."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Of course, you have 3 upcoming appointments, which 1 would you like to cancel?  today with Kelly Noble, MD, July 1st with, dude, eher or July 6th with zigni lucoski, MD"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'd like to cancel the appointment I have today with Kelly Noble, MD."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "No problem.  Can you tell me the reason for cancel your appointment with Kelly Noble MD today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm unable to make it today due to a change in my schedule."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Before I cancel, just to confirm. You want to cancel your appointment today with Kelly Noble. MD, is that correct? If so, could you share a reason for the cancellation?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, that's correct. As mentioned, my schedule changed unexpectedly."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I can cancel your appointment. Now, could you please tell me the reason for canceling? Even a brief reason is fine."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "The change in my schedule is preventing me from making it today."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Nor?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, please go ahead and cancel the appointment. Thank you."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Kelly Noble. And"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, please cancel my appointment with Kelly Noble, MD. Thank you."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "MD for today.  Your appointment today was Kelly Noble. MD has been canceled.  Is there anything else I can help you with?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, that's all I needed. Thank you for your help."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "You're welcome. Have a great day."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thanks, you too. Goodbye."
+    }
+  ]
+}
