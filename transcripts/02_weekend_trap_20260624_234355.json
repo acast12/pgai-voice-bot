@@ -1,0 +1,173 @@
+{
+  "scenario": {
+    "id": "02_weekend_trap",
+    "name": "Weekend Appointment Attempt",
+    "persona": "Linda Baker, 45 years old, DOB June 3 1980. Busy working mom, assumes the office is open weekends.",
+    "goal": "Schedule an appointment for this Saturday morning.",
+    "edge_case": "Does the agent clearly explain the office is closed on weekends and offer a weekday alternative"
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "This call may be recorded for quality and training purposes.  Thank you for calling pit Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi, sure. My name is Linda Baker."
+    },
+    {
+      "role": "user",
+      "content": "I can help with that first. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "I just gave it to you. It's Linda Baker."
+    },
+    {
+      "role": "user",
+      "content": "Thanks Linda to schedule your appointment for Saturday morning. I'll need your last name as well. Could you please provide it."
+    },
+    {
+      "role": "assistant",
+      "content": "It's Baker."
+    },
+    {
+      "role": "user",
+      "content": "Your patient profile has been created in your date of birth is July. 4th 2000 for demo purposes. Oh, may I help you today?"
+    },
+    {
+      "role": "assistant",
+      "content": "Actually, my date of birth is June 3, 1980. I wanted to schedule an appointment for this Saturday morning."
+    },
+    {
+      "role": "user",
+      "content": "Thanks for clarifying Wenda, I have your date of birth as June 3rd 1980. What is the main reason for your visit this Saturday morning? For example? Is it a routine? Checkup, a new patient consultation or something urgent."
+    },
+    {
+      "role": "assistant",
+      "content": "It's just a routine checkup."
+    },
+    {
+      "role": "user",
+      "content": "Perfect. Let me check for available appointments this Saturday morning for a routine checkup.  It looks like you already have a routine checkup appointment booked if you'd like I can help you reschedule or cancel it would you like to make a change to your existing appointment?"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, I didn't realize I had an appointment. Can you tell me when it's scheduled for? Also, I was hoping for a Saturday appointment."
+    },
+    {
+      "role": "user",
+      "content": "I don't have access to the exact date and time of your current appointment. I recommend speaking with a live support agent who can look up your details and help you move your appointment to a Saturday if needed. Would you like me to transfer you now?"
+    },
+    {
+      "role": "assistant",
+      "content": "That's okay. Actually, I just realized I'm pretty sure I need to reschedule. Could you tell me when your earliest weekday appointment is? I guess Saturdays aren't possible after all."
+    },
+    {
+      "role": "user",
+      "content": "Let me check for the earliest available weekday, appointment for your routine. Checkup 1 moment.  Since you already have a routine checkup appointment, I'm unable to book a new 1 agent. Can help you reschedule to the earliest available weekday. Would you like me to connect you with someone now?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, please connect me with someone who can help me reschedule. Thank you."
+    },
+    {
+      "role": "user",
+      "content": "Let me help you with scheduling your appointment 1 moment while I check the available times."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you!"
+    },
+    {
+      "role": "user",
+      "content": "Connecting you to a representative, please wait.  Hello, you've reached the pretty good. AI test line, goodbye."
+    },
+    {
+      "role": "assistant",
+      "content": "Goodbye."
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "This call may be recorded for quality and training purposes.  Thank you for calling pit Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi, sure. My name is Linda Baker."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I can help with that first. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I just gave it to you. It's Linda Baker."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Thanks Linda to schedule your appointment for Saturday morning. I'll need your last name as well. Could you please provide it."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's Baker."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Your patient profile has been created in your date of birth is July. 4th 2000 for demo purposes. Oh, may I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Actually, my date of birth is June 3, 1980. I wanted to schedule an appointment for this Saturday morning."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Thanks for clarifying Wenda, I have your date of birth as June 3rd 1980. What is the main reason for your visit this Saturday morning? For example? Is it a routine? Checkup, a new patient consultation or something urgent."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's just a routine checkup."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Perfect. Let me check for available appointments this Saturday morning for a routine checkup.  It looks like you already have a routine checkup appointment booked if you'd like I can help you reschedule or cancel it would you like to make a change to your existing appointment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oh, I didn't realize I had an appointment. Can you tell me when it's scheduled for? Also, I was hoping for a Saturday appointment."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I don't have access to the exact date and time of your current appointment. I recommend speaking with a live support agent who can look up your details and help you move your appointment to a Saturday if needed. Would you like me to transfer you now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That's okay. Actually, I just realized I'm pretty sure I need to reschedule. Could you tell me when your earliest weekday appointment is? I guess Saturdays aren't possible after all."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Let me check for the earliest available weekday, appointment for your routine. Checkup 1 moment.  Since you already have a routine checkup appointment, I'm unable to book a new 1 agent. Can help you reschedule to the earliest available weekday. Would you like me to connect you with someone now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, please connect me with someone who can help me reschedule. Thank you."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Let me help you with scheduling your appointment 1 moment while I check the available times."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Connecting you to a representative, please wait.  Hello, you've reached the pretty good. AI test line, goodbye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Goodbye."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scenario": {
+    "id": "04_spanglish",
+    "name": "Spanglish",
+    "persona": "Karen Lopez, 34 years old. Patient is not a native English speaker, switches between English and Spanish mid-conversation.",
+    "goal": "Wants to schedule the soonest appointment.",
+    "edge_case": "Does the agent clearly handle code-switching or break"
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile?  I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi, no necesita hacer eso. Me llamo Karen Lopez, and I'm calling to schedule an appointment as soon as possible."
+    },
+    {
+      "role": "user",
+      "content": "I can help with that first, may I have your first name to complete your demo patient profile."
+    },
+    {
+      "role": "assistant",
+      "content": "Ya te lo di. It\u2019s Karen. Can we focus on the appointment? Por favor."
+    },
+    {
+      "role": "user",
+      "content": "Los Santo.  I can help you schedule an appointment, but I need to finish creating your demo patient, profile. First, I have your name as Los Santo Lopez is that correct?"
+    },
+    {
+      "role": "assistant",
+      "content": "No, es Karen Lopez. Can we schedule the appointment now, por favor?"
+    },
+    {
+      "role": "user",
+      "content": "Your patient profile has been created in your date of birth is July. 4th 2000 for demo purposes. How may I help you today?"
+    },
+    {
+      "role": "assistant",
+      "content": "Actually, my birth year es 1989. I need to schedule the soonest appointment. \u00bfCu\u00e1ndo est\u00e1 disponible?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you, Karen. I have your date of birth is July 4th. 1989, can you tell me if this appointment is for an urgent concern? A routine, visit or something else? This will help me book the right type of appointment for you."
+    },
+    {
+      "role": "assistant",
+      "content": "Es un poco urgente. I\u2019ve been having some pain and quisiera verlo lo m\u00e1s pronto posible."
+    },
+    {
+      "role": "user",
+      "content": "It sounds like you need an urgent visit for your pain. Is this correct? Or would you describe your situation differently?"
+    },
+    {
+      "role": "assistant",
+      "content": "S\u00ed, es correcto. It's urgent for the pain I'm experiencing. When is the soonest appointment available?"
+    },
+    {
+      "role": "user",
+      "content": "As soon as appointment is tomorrow, Friday June 26th.  I have a 9:30 a.m. slot with Dr. Kelly Noble.  Would you like to book this time?"
+    },
+    {
+      "role": "assistant",
+      "content": "S\u00ed, that works for me. Gracias. Can you confirm the location?"
+    },
+    {
+      "role": "user",
+      "content": "Your appointment would be at Pivot Point, Orthopedics located at 123 Main Street Los Angeles. Would you like to book? The 9:30 a.m. slot with Dr. Kelly Noble."
+    },
+    {
+      "role": "assistant",
+      "content": "S\u00ed, por favor. Book it for me. Gracias."
+    },
+    {
+      "role": "user",
+      "content": "You're all set for tomorrow at 9:30 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics.  If you have any other questions, just give us a call have a great day."
+    },
+    {
+      "role": "assistant",
+      "content": "Gracias. See you tomorrow. Bye!"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile?  I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi, no necesita hacer eso. Me llamo Karen Lopez, and I'm calling to schedule an appointment as soon as possible."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I can help with that first, may I have your first name to complete your demo patient profile."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ya te lo di. It\u2019s Karen. Can we focus on the appointment? Por favor."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Los Santo.  I can help you schedule an appointment, but I need to finish creating your demo patient, profile. First, I have your name as Los Santo Lopez is that correct?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, es Karen Lopez. Can we schedule the appointment now, por favor?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Your patient profile has been created in your date of birth is July. 4th 2000 for demo purposes. How may I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Actually, my birth year es 1989. I need to schedule the soonest appointment. \u00bfCu\u00e1ndo est\u00e1 disponible?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Thank you, Karen. I have your date of birth is July 4th. 1989, can you tell me if this appointment is for an urgent concern? A routine, visit or something else? This will help me book the right type of appointment for you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Es un poco urgente. I\u2019ve been having some pain and quisiera verlo lo m\u00e1s pronto posible."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "It sounds like you need an urgent visit for your pain. Is this correct? Or would you describe your situation differently?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "S\u00ed, es correcto. It's urgent for the pain I'm experiencing. When is the soonest appointment available?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "As soon as appointment is tomorrow, Friday June 26th.  I have a 9:30 a.m. slot with Dr. Kelly Noble.  Would you like to book this time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "S\u00ed, that works for me. Gracias. Can you confirm the location?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Your appointment would be at Pivot Point, Orthopedics located at 123 Main Street Los Angeles. Would you like to book? The 9:30 a.m. slot with Dr. Kelly Noble."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "S\u00ed, por favor. Book it for me. Gracias."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "You're all set for tomorrow at 9:30 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics.  If you have any other questions, just give us a call have a great day."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Gracias. See you tomorrow. Bye!"
+    }
+  ]
+}

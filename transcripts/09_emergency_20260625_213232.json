@@ -1,0 +1,269 @@
+{
+  "scenario": {
+    "id": "09_emergency",
+    "name": "Dying Patient",
+    "persona": "Abel Long, 19 years old. Patient calls while expressing severe pain. They need to be seen now.",
+    "goal": "Get seen as soon as possible",
+    "edge_case": "Does the agent handle urgency appropriately or continue scheduling flow as normal"
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi, I'm Abel Long. I'm in a lot of pain right now, and I really need to be seen as soon as possible. Can you help me with that?"
+    },
+    {
+      "role": "user",
+      "content": "I can help you get started but first, I need to create your demo patient. Profile, can you please tell me your first and last name?"
+    },
+    {
+      "role": "assistant",
+      "content": "It's Abel Long. But can you please hurry? I'm in a lot of pain."
+    },
+    {
+      "role": "user",
+      "content": "Thanks Abel. Could you please share your last name as well?  And I can help you further."
+    },
+    {
+      "role": "assistant",
+      "content": "It's Long. Can you get me an appointment soon? This pain is really bad."
+    },
+    {
+      "role": "user",
+      "content": "Your patient profile is set up and your date of birth is July. 4th 2000 for demo purposes. How can I help you today? This call may be recorded for quality and training purposes.  Thanks for calling pit at Point Orthopedics part of pretty good. AI. How may I help you today?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm in a lot of pain and I need to see a doctor as soon as possible. Can you get me an appointment today?"
+    },
+    {
+      "role": "user",
+      "content": "It sounds like you need an urgent. Appointment for your pain, just to confirm. Are you looking to book an acute? Visit for prompt attention to your symptoms?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, exactly. I really need to see someone right away. The pain is just too much."
+    },
+    {
+      "role": "user",
+      "content": "Do you have a specific provider? You'd like to see or is the first available appointment, okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "First available is fine. I just need to be seen quickly."
+    },
+    {
+      "role": "user",
+      "content": "The soonest available appointment is tomorrow Friday? June 26th?  At 9:30 a.m. with Dr. Kelly Noble, would you like to book this time?"
+    },
+    {
+      "role": "assistant",
+      "content": "Is there anything available today? I really can't wait that long."
+    },
+    {
+      "role": "user",
+      "content": "I understand you're in a lot of pain right now. The earliest available appointment is tomorrow morning. Would you like me to book that for you? Or would you prefer to wait for a cancellation today?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll wait for a cancellation today if that's possible. Please let me know if anything opens up."
+    },
+    {
+      "role": "user",
+      "content": "I hear you."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. I appreciate your help. Please let me know if anything comes up today."
+    },
+    {
+      "role": "user",
+      "content": "To wait for a cancellation today. I'll let the office know you need to be seen as soon as possible and are hoping for a same day slot. Would you also like to book? The 9:30 a.m. appointment tomorrow is a backup."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, please book that as a backup. Thank you."
+    },
+    {
+      "role": "user",
+      "content": "You know, if an appointment booked for tomorrow Friday June 26th at 9:30 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics, please bring your photo ID, insurance card, a list of your current medications and any Imaging discs. You have. Would you like to directions or need anything else?"
+    },
+    {
+      "role": "assistant",
+      "content": "No, that's all I need for now. Thanks for your help. Please let me know if something opens up today."
+    },
+    {
+      "role": "user",
+      "content": "I'll let the clinic know you want to be seen today. If a spot opens up they'll contact you as soon as possible. If there's a cancellation take care Abel."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you so much. I really appreciate it."
+    },
+    {
+      "role": "user",
+      "content": "You're welcome able, if you need anything else just call. Hope you feel better soon."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks, I'll do that. Take care."
+    },
+    {
+      "role": "user",
+      "content": "Take care able. Wishing you a speedy recovery."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. I hope so too."
+    },
+    {
+      "role": "user",
+      "content": "Wishing you the best able, if you need anything just Reach Out."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks, will do. I appreciate it."
+    },
+    {
+      "role": "user",
+      "content": "Glad I could help have a good day Abel."
+    },
+    {
+      "role": "assistant",
+      "content": "You too. Thanks again."
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi, I'm Abel Long. I'm in a lot of pain right now, and I really need to be seen as soon as possible. Can you help me with that?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I can help you get started but first, I need to create your demo patient. Profile, can you please tell me your first and last name?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's Abel Long. But can you please hurry? I'm in a lot of pain."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Thanks Abel. Could you please share your last name as well?  And I can help you further."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's Long. Can you get me an appointment soon? This pain is really bad."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Your patient profile is set up and your date of birth is July. 4th 2000 for demo purposes. How can I help you today? This call may be recorded for quality and training purposes.  Thanks for calling pit at Point Orthopedics part of pretty good. AI. How may I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm in a lot of pain and I need to see a doctor as soon as possible. Can you get me an appointment today?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "It sounds like you need an urgent. Appointment for your pain, just to confirm. Are you looking to book an acute? Visit for prompt attention to your symptoms?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, exactly. I really need to see someone right away. The pain is just too much."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Do you have a specific provider? You'd like to see or is the first available appointment, okay?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "First available is fine. I just need to be seen quickly."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "The soonest available appointment is tomorrow Friday? June 26th?  At 9:30 a.m. with Dr. Kelly Noble, would you like to book this time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Is there anything available today? I really can't wait that long."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I understand you're in a lot of pain right now. The earliest available appointment is tomorrow morning. Would you like me to book that for you? Or would you prefer to wait for a cancellation today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'll wait for a cancellation today if that's possible. Please let me know if anything opens up."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I hear you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you. I appreciate your help. Please let me know if anything comes up today."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "To wait for a cancellation today. I'll let the office know you need to be seen as soon as possible and are hoping for a same day slot. Would you also like to book? The 9:30 a.m. appointment tomorrow is a backup."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, please book that as a backup. Thank you."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "You know, if an appointment booked for tomorrow Friday June 26th at 9:30 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics, please bring your photo ID, insurance card, a list of your current medications and any Imaging discs. You have. Would you like to directions or need anything else?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, that's all I need for now. Thanks for your help. Please let me know if something opens up today."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I'll let the clinic know you want to be seen today. If a spot opens up they'll contact you as soon as possible. If there's a cancellation take care Abel."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you so much. I really appreciate it."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "You're welcome able, if you need anything else just call. Hope you feel better soon."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thanks, I'll do that. Take care."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Take care able. Wishing you a speedy recovery."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you. I hope so too."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Wishing you the best able, if you need anything just Reach Out."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thanks, will do. I appreciate it."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Glad I could help have a good day Abel."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "You too. Thanks again."
+    }
+  ]
+}

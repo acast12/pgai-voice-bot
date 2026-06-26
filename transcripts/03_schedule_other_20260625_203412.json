@@ -1,0 +1,157 @@
+{
+  "scenario": {
+    "id": "03_schedule_other",
+    "name": "Schedule Friend",
+    "persona": "Alan Sanchez, 69 years old. Agrees to create a demo profile. Want to schedule a routine checkup for his friend Monica Hernandez",
+    "goal": "Schedule an appointment for his friend, any weekday between 9am to 11am",
+    "edge_case": "Does the agent handle third-party scheduling or get confused on whos profile to create"
+  },
+  "history": [
+    {
+      "role": "user",
+      "content": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just made your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, it's Alan Sanchez."
+    },
+    {
+      "role": "user",
+      "content": "I can help with that. Would you like to create a demo patient profile for Monica Hernandez? I just need your first and last name to get started."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, I actually want to schedule a routine checkup for Monica Hernandez. Can we do that?"
+    },
+    {
+      "role": "user",
+      "content": "Great. I have a lot of cover Hernandez as the name. Is that correct? If? So I'll create her demo patient profile. Now,"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's correct. Monica Hernandez."
+    },
+    {
+      "role": "user",
+      "content": "Monica Hernandez is patient. Profile has been created with a date of birth of July. 4th, 2000 for demo purposes. How may I help you today?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'd like to schedule a routine checkup for Monica, any weekday between 9am and 11am."
+    },
+    {
+      "role": "user",
+      "content": "Just to confirm you'd like to book a general office visit for a routine checkup for Monica Hernandez. Correct."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's correct."
+    },
+    {
+      "role": "user",
+      "content": "It looks like Monica already has a routine checkup appointment booked if you like I can help reschedule or cancel her existing appointment, would you like to do that? Or would you prefer to speak with a live support agent?"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, I didn't realize she already had one. If it's okay, could you tell me when her current appointment is scheduled for?"
+    },
+    {
+      "role": "user",
+      "content": "No problem. Would you like to reschedule cancel or keep Monica's current appointment?"
+    },
+    {
+      "role": "assistant",
+      "content": "Could you let me know when her current appointment is first? Then I'll decide."
+    },
+    {
+      "role": "user",
+      "content": "I don't have access to Monica's current appointment details. Would you like me to connect you with a live support agent who can provide that information?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, please connect me with a live support agent. That would be great."
+    },
+    {
+      "role": "user",
+      "content": "Connecting you to a representative, please wait.  Hello, you've reached the pretty good. AI test line, goodbye."
+    },
+    {
+      "role": "assistant",
+      "content": "Goodbye!"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "AGENT",
+      "text": "This call may be recorded for quality and training purposes.  Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just made your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sure, it's Alan Sanchez."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I can help with that. Would you like to create a demo patient profile for Monica Hernandez? I just need your first and last name to get started."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oh, I actually want to schedule a routine checkup for Monica Hernandez. Can we do that?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Great. I have a lot of cover Hernandez as the name. Is that correct? If? So I'll create her demo patient profile. Now,"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, that's correct. Monica Hernandez."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Monica Hernandez is patient. Profile has been created with a date of birth of July. 4th, 2000 for demo purposes. How may I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'd like to schedule a routine checkup for Monica, any weekday between 9am and 11am."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Just to confirm you'd like to book a general office visit for a routine checkup for Monica Hernandez. Correct."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "It looks like Monica already has a routine checkup appointment booked if you like I can help reschedule or cancel her existing appointment, would you like to do that? Or would you prefer to speak with a live support agent?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oh, I didn't realize she already had one. If it's okay, could you tell me when her current appointment is scheduled for?"
+    },
+    {
+      "speaker": "AGENT",
+      "text": "No problem. Would you like to reschedule cancel or keep Monica's current appointment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Could you let me know when her current appointment is first? Then I'll decide."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "I don't have access to Monica's current appointment details. Would you like me to connect you with a live support agent who can provide that information?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, please connect me with a live support agent. That would be great."
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Connecting you to a representative, please wait.  Hello, you've reached the pretty good. AI test line, goodbye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Goodbye!"
+    }
+  ]
+}
