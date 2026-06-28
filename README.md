@@ -2,8 +2,9 @@
  
 An automated voice bot that calls the PGAI test line (+1-805-439-8008), simulates realistic patient conversations, records and transcribes each call, and identifies bugs in the PGAI agent's behavior.
 
-Loom Walkthrough:
-https://www.loom.com/share/de5d7f7303934dc295f7e4aa7d182adf 
+Loom Walkthrough: https://www.loom.com/share/de5d7f7303934dc295f7e4aa7d182adf 
+
+Loom debug: https://www.loom.com/share/992b36afc52049448ecb029f1a00ae5c
 
 ## Quick Start
  
